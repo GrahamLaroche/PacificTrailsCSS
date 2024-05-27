@@ -1,0 +1,120 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background-image: url("ptrbackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    
+    min-width: 600px;
+}
+
+#wrapper {
+    background-color: white;
+    height: 100%;
+    padding: 0px;
+}
+
+header{
+    background-color: #000032;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav {
+    background-color: #90C8E3;
+    float: left;
+    height: 479px;
+    width: 190px;
+    margin-right: 40px;
+    
+}
+
+nav ul {
+    position: relative;
+    font-size: 1.2em;
+    list-style-type: none;
+    left: -20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:link{
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-bottom: 0px;
+    padding: 10px;
+    color: white;
+}
+
+h2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+p{
+    margin-left: 200px;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#content {
+    background-color: white;
+    height: 429px;
+    margin-left: 0px;
+}
+
+#content ul {
+    list-style-image: url("marker.gif");
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+
+.resort {
+    color: #3399CC;
+    font-weight: bold;
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 80%;
+    height: 50px;
+    background-color: white;
+}
+
